@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:h2:mem:todo
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
